@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\A&SD\pr2\bin\Debug\pr2.exe.config
+C:\Users\user\Desktop\A&SD\pr2\bin\Debug\pr2.exe
+C:\Users\user\Desktop\A&SD\pr2\bin\Debug\pr2.pdb
+C:\Users\user\Desktop\A&SD\pr2\obj\Debug\pr2.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\A&SD\pr2\obj\Debug\pr2.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\A&SD\pr2\obj\Debug\pr2.exe
+C:\Users\user\Desktop\A&SD\pr2\obj\Debug\pr2.pdb
