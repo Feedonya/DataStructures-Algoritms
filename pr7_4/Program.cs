@@ -1,62 +1,54 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace pr7_4
+class Program
 {
-    internal class Program
+    static void Main()
     {
-        static void Main()
+        // Ввод количества строк
+        Console.Write("Введите количество строк: ");
+        int rows = Convert.ToInt32(Console.ReadLine());
+
+        // Инициализация ступенчатого массива
+        int[][] jaggedArray = new int[rows][];
+
+        // Ввод строк разной длины и их элементов
+        for (int i = 0; i < rows; i++)
         {
-            Console.Write("Введите количество строк: ");
-            int rows = int.Parse(Console.ReadLine());
+            Console.Write($"Введите количество элементов в строке {i + 1}: ");
+            int cols = Convert.ToInt32(Console.ReadLine());
+            jaggedArray[i] = new int[cols];
 
-            Console.Write("Введите количество столбцов: ");
-            int cols = int.Parse(Console.ReadLine());
-
-            int[,] array = new int[rows, cols];
-
-            Console.WriteLine("Введите элементы массива:");
-            for (int i = 0; i < rows; i++)
+            for (int j = 0; j < cols; j++)
             {
-                for (int j = 0; j < cols; j++)
+                Console.Write($"Элемент [{i},{j}]: ");
+                jaggedArray[i][j] = Convert.ToInt32(Console.ReadLine());
+            }
+        }
+
+        // Массив для хранения максимальных элементов каждой строки
+        int[] maxElements = new int[rows];
+
+        // Поиск максимальных элементов в каждой строке
+        for (int i = 0; i < rows; i++)
+        {
+            int maxInRow = jaggedArray[i][0]; // Первый элемент строки как начальный максимум
+
+            for (int j = 1; j < jaggedArray[i].Length; j++)
+            {
+                if (jaggedArray[i][j] > maxInRow)
                 {
-                    Console.Write($"Элемент {i},{j}: ");
-                    array[i, j] = int.Parse(Console.ReadLine());
+                    maxInRow = jaggedArray[i][j]; // Находим максимальный элемент
                 }
             }
 
-            int[] maxElements = new int[rows];
+            maxElements[i] = maxInRow; // Записываем максимальный элемент строки
+        }
 
-            for (int i = 0; i < rows; i++)
-            {
-                int maxInRow = array[i, 0]; 
-
-                for (int j = 1; j < cols; j++)
-                {
-                    if (array[i, j] > maxInRow)
-                    {
-                        maxInRow = array[i, j];
-                    }
-                }
-
-                maxElements[i] = maxInRow;
-            }
-
-            Console.WriteLine("Максимальные элементы каждой строки:");
-            for (int i = 0; i < maxElements.Length; i++)
-            {
-                Console.WriteLine($"Строка {i + 1}: {maxElements[i]}");
-            }
-            Console.Read();
+        // Вывод массива максимальных элементов
+        Console.WriteLine("Максимальные элементы каждой строки:");
+        for (int i = 0; i < maxElements.Length; i++)
+        {
+            Console.WriteLine($"Строка {i + 1}: {maxElements[i]}");
         }
     }
 }
-
-
-
-//3  5  1  7
-//2  9  8  6
-//4  0  3 10
