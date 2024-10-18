@@ -5,3 +5,10 @@ C:\Users\user\source\repos\pr7_4\obj\Debug\pr7_4.csproj.AssemblyReference.cache
 C:\Users\user\source\repos\pr7_4\obj\Debug\pr7_4.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\pr7_4\obj\Debug\pr7_4.exe
 C:\Users\user\source\repos\pr7_4\obj\Debug\pr7_4.pdb
+C:\Users\user\Desktop\A&SD\pr7_4\bin\Debug\pr7_4.exe.config
+C:\Users\user\Desktop\A&SD\pr7_4\bin\Debug\pr7_4.exe
+C:\Users\user\Desktop\A&SD\pr7_4\bin\Debug\pr7_4.pdb
+C:\Users\user\Desktop\A&SD\pr7_4\obj\Debug\pr7_4.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\A&SD\pr7_4\obj\Debug\pr7_4.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\A&SD\pr7_4\obj\Debug\pr7_4.exe
+C:\Users\user\Desktop\A&SD\pr7_4\obj\Debug\pr7_4.pdb

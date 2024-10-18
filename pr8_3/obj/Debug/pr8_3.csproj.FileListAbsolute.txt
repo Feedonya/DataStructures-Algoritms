@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\A&SD\pr8_3\bin\Debug\pr8_3.exe.config
+C:\Users\user\Desktop\A&SD\pr8_3\bin\Debug\pr8_3.exe
+C:\Users\user\Desktop\A&SD\pr8_3\bin\Debug\pr8_3.pdb
+C:\Users\user\Desktop\A&SD\pr8_3\obj\Debug\pr8_3.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\A&SD\pr8_3\obj\Debug\pr8_3.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\A&SD\pr8_3\obj\Debug\pr8_3.exe
+C:\Users\user\Desktop\A&SD\pr8_3\obj\Debug\pr8_3.pdb
