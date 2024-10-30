@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\pr7_6\bin\Debug\pr7_6.exe.config
+C:\Users\user\source\repos\pr7_6\bin\Debug\pr7_6.exe
+C:\Users\user\source\repos\pr7_6\bin\Debug\pr7_6.pdb
+C:\Users\user\source\repos\pr7_6\obj\Debug\pr7_6.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\pr7_6\obj\Debug\pr7_6.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\pr7_6\obj\Debug\pr7_6.exe
+C:\Users\user\source\repos\pr7_6\obj\Debug\pr7_6.pdb
+C:\Users\user\Desktop\A&SD\pr7_6\bin\Debug\pr7_6.exe.config
+C:\Users\user\Desktop\A&SD\pr7_6\bin\Debug\pr7_6.exe
+C:\Users\user\Desktop\A&SD\pr7_6\bin\Debug\pr7_6.pdb
+C:\Users\user\Desktop\A&SD\pr7_6\obj\Debug\pr7_6.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\A&SD\pr7_6\obj\Debug\pr7_6.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\A&SD\pr7_6\obj\Debug\pr7_6.exe
+C:\Users\user\Desktop\A&SD\pr7_6\obj\Debug\pr7_6.pdb
