@@ -45,4 +45,3 @@ namespace pr9_2
         }
     }
 }
-
