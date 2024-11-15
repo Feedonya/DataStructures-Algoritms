@@ -9,7 +9,6 @@ class Program
 		int rows = int.Parse(Console.ReadLine());
 
 		int[][] jaggedArray = new int[rows][];
-		//int temp = 0;
 
 		for (int i = 0; i < rows; i++)
 			{
@@ -34,7 +33,6 @@ class Program
 					hasEven = true;
 					break;
 				}
-                //temp += 1;
             }
 
 			if (!hasEven)
@@ -47,24 +45,16 @@ class Program
 				rows--; //уменьшаем текущее количество строк в массиве
 			}
 		}
-        Console.WriteLine(rows);
-        //rows -= temp;
-        //Console.WriteLine(temp);
-        //Console.WriteLine(rows);
+
         Console.WriteLine("Массив после удаления строк без чётных элементов:");
+
         for (int row = 0; row<rows-1; row++)
-        //foreach (var row in jaggedArray)x	
         {
-            //if (jaggedArray[row] != null)
-            //if (row != null)
+            foreach (int element in jaggedArray[row])
             {
-                foreach (int element in jaggedArray[row])
-                //foreach (int element in row)
-                {
-					Console.Write(element + "\t");
-				}
-				Console.WriteLine();
+				Console.Write(element + "\t");
 			}
+			Console.WriteLine();
 		}
 		Console.Read();
 	}

@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\A\u0026SD\\pr7_6_6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB5A78A7-1B43-4AB2-A251-205720D6598C}|pr7_6.csproj|C:\\Users\\user\\Desktop\\A\u0026SD\\pr7_6_6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB5A78A7-1B43-4AB2-A251-205720D6598C}|pr7_6.csproj|c:\\users\\user\\desktop\\a\u0026sd\\pr7_6_6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB5A78A7-1B43-4AB2-A251-205720D6598C}|pr7_6.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\pr7_6_6\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwDYAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwCwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T08:06:17.68Z",
               "EditorCaption": ""
