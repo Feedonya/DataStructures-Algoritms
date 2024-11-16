@@ -1,50 +1,54 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO;
 
-struct SPoint
+struct SPoint //описание структуры
 {
-    public int x, y; // Поля структуры
-
-    // Конструктор структуры
-    public SPoint(int x, int y)
+    public int x, y; //поля структуры
+    public SPoint(int x, int y) //конструктор структуры
     {
         this.x = x;
         this.y = y;
     }
-
-    // Метод для вывода координат точки
+    //методы структуры
     public void Show()
     {
         Console.WriteLine("({0}, {1})", x, y);
     }
-
-    // Метод для вычисления расстояния от начала координат
     public double Distance()
     {
-        return Math.Sqrt(x * x + y * y);
+        return Math.Sqrt(x* x+y* y);
     }
-}
+} //конец описания структуры
 
 class Program
 {
     static void Main()
     {
-        Console.Write("Введите количество точек: ");
-        int n = int.Parse(Console.ReadLine());
+        string inputFile = "C:\\Users\\user\\Desktop\\A&SD\\pr14_1_1\\input.txt";
+        string outputFile = "C:\\Users\\user\\Desktop\\A&SD\\pr14_1_1\\output.txt";
 
-        SPoint[] points = new SPoint[n];
-
-        for (int i = 0; i < n; i++)
+        if (!File.Exists(inputFile))
         {
-            Console.Write($"Введите координаты точки {i + 1} (x y): ");
-            int x = int.Parse(Console.ReadLine());
-            int y = int.Parse(Console.ReadLine());
+            Console.WriteLine("Файл input.txt не найден.");
+            return;
+        }
+
+        string[] lines = File.ReadAllLines(inputFile);
+        SPoint[] points = new SPoint[lines.Length];
+
+        for (int i = 0; i < lines.Length; i++)
+        {
+            string[] parts = lines[i].Split(',');
+            int x = int.Parse(parts[0].Trim());
+            int y = int.Parse(parts[1].Trim());
             points[i] = new SPoint(x, y);
         }
 
         SPoint farthestPoint = points[0];
         double maxDistance = farthestPoint.Distance();
 
-        for (int i = 1; i < n; i++)
+        for (int i = 1; i < points.Length; i++)
         {
             double distance = points[i].Distance();
             if (distance > maxDistance)
@@ -54,8 +58,9 @@ class Program
             }
         }
 
-        Console.WriteLine("Точка, наиболее удаленная от начала координат:");
-        farthestPoint.Show();
-        Console.WriteLine("Расстояние: {0:F2}", maxDistance);
+        string result = $"Наиболее удалённая точка: ({farthestPoint.x}, {farthestPoint.y})";
+        File.WriteAllText(outputFile, result);
+
+        Console.WriteLine("Результат записан в файл output.txt.");
     }
 }
