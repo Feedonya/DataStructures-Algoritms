@@ -57,9 +57,20 @@ class Program
 
         Console.Write("Введите название школы: ");
         string targetSchool = Console.ReadLine();
-        var filteredStudents = students
-            .Where(student => student.School == targetSchool)
-            .ToArray();
+
+        Student[] filteredStudents = new Student[students.Length];
+        int count = 0;
+
+        foreach (var student in students)
+        {
+            if (student.School == targetSchool)
+            {
+                filteredStudents[count] = student;
+                count++;
+            }
+        }
+
+        Array.Resize(ref filteredStudents, count);
 
         Array.Sort(filteredStudents);
 
@@ -67,11 +78,11 @@ class Program
         {
             foreach (var student in filteredStudents)
             {
-                writer.WriteLine(student);
+                writer.WriteLine(student.ToString());
             }
         }
 
-        Console.WriteLine("Информация записана в файл output.txt");
+        Console.WriteLine("Информация записана в файл output.txt.");
     }
 }
 

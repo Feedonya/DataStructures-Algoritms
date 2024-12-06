@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 
 struct SPoint //описание структуры
@@ -10,14 +9,15 @@ struct SPoint //описание структуры
         this.x = x;
         this.y = y;
     }
-    //методы структуры
-    public void Show()
-    {
-        Console.WriteLine("({0}, {1})", x, y);
-    }
+
     public double Distance()
     {
-        return Math.Sqrt(x* x+y* y);
+        return Math.Sqrt(x * x + y * y);
+    }
+
+    public override string ToString()
+    {
+        return $"({x}, {y})";
     }
 } //конец описания структуры
 
@@ -40,26 +40,34 @@ class Program
         for (int i = 0; i < lines.Length; i++)
         {
             string[] parts = lines[i].Split(',');
-            int x = int.Parse(parts[0].Trim());
-            int y = int.Parse(parts[1].Trim());
+            int x = int.Parse(parts[0]);
+            int y = int.Parse(parts[1]);
             points[i] = new SPoint(x, y);
         }
 
-        SPoint farthestPoint = points[0];
-        double maxDistance = farthestPoint.Distance();
+        double maxDistance = 0;
 
-        for (int i = 1; i < points.Length; i++)
+        foreach (var point in points)
         {
-            double distance = points[i].Distance();
+            double distance = point.Distance();
             if (distance > maxDistance)
             {
                 maxDistance = distance;
-                farthestPoint = points[i];
             }
         }
 
-        string result = $"Наиболее удалённая точка: ({farthestPoint.x}, {farthestPoint.y})";
-        File.WriteAllText(outputFile, result);
+        string[] farthestPoints = new string[points.Length];
+        int count = 0;
+        foreach (var point in points)
+        {
+            if (point.Distance() == maxDistance)
+            {
+                farthestPoints[count] = point.ToString();
+                count++;
+            }
+        }
+
+        File.WriteAllLines(outputFile, farthestPoints);
 
         Console.WriteLine("Результат записан в файл output.txt.");
     }

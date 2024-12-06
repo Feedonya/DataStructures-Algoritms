@@ -19,7 +19,6 @@ struct Student
         School = school;
     }
 
-    // Метод для красивого вывода информации о студенте
     public override string ToString()
     {
         return $"{FullName}, {BirthYear}, {Address}, {School}";
@@ -39,7 +38,6 @@ class Program
             return;
         }
 
-        // Чтение данных из файла и создание списка студентов
         List<Student> students = File.ReadAllLines(inputFile)
                                         .Select(line =>
                                         {
@@ -53,16 +51,22 @@ class Program
                                         })
                                         .ToList();
 
-        // Запрос у пользователя названия школы
         Console.Write("Введите название школы: ");
         string targetSchool = Console.ReadLine();
 
-        // Фильтрация и сортировка студентов по году рождения
-        var filteredStudents = students.Where(s => s.School == targetSchool)
-                                        .OrderBy(s => s.BirthYear)
-                                        .ToList();
+        var filteredStudents =
+                    from s in students
+                    where s.School == targetSchool
+                    orderby s.BirthYear
+                    select s;
 
-        File.WriteAllLines(outputFile, filteredStudents.Select(s => s.ToString()));
+        using (StreamWriter writer = new StreamWriter(outputFile))
+        {
+            foreach (var student in filteredStudents)
+            {
+                writer.WriteLine(student.ToString());
+            }
+        }
 
         Console.WriteLine("Информация записана в файл output.txt.");
     }

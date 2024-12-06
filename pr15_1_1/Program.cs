@@ -16,22 +16,26 @@ class Program
             return;
         }
 
-        // Чтение данных из файла
-        List<int> numbers = File.ReadAllLines(inputFile)
-                                .Select(int.Parse)
-                                .ToList();
+        List<int> numbers = new List<int>();
+        foreach (var line in File.ReadAllLines(inputFile))
+        {
+            var parts = line.Split(new[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+            numbers.AddRange(parts.Select(int.Parse));
+        }
 
-        // Фильтрация и сортировка положительных чисел
-        var positiveNumbers = numbers.Where(num => num > 0)
-                                        .OrderBy(num => num)
-                                        .ToList();
+        var positiveNumbers =
+                    from num in numbers
+                    where num > 0
+                    orderby num descending
+                    select num;
 
-        // Вывод результата на экран
-        Console.WriteLine("Положительные числа, отсортированные по возрастанию:");
-        Console.WriteLine(string.Join(", ", positiveNumbers));
-
-        // Запись результата в файл
-        File.WriteAllLines(outputFile, positiveNumbers.Select(num => num.ToString()));
+        using (StreamWriter writer = new StreamWriter(outputFile))
+        {
+            foreach (var number in positiveNumbers)
+            {
+                writer.WriteLine(number.ToString());
+            }
+        }
 
         Console.WriteLine("Результат записан в файл output.txt.");
     }
