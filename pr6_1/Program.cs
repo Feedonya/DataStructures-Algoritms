@@ -23,7 +23,7 @@ class Program
             (-1, 1_000_001),
             (10, 10_000_000),
             (100_000_000_000, 10_000_000),
-            (100_000_000_000_000_000, 10_000_000_00)
+            (100_000_000_000_000_000, 10_000_000_00),
         };
 
         Console.WriteLine("{0,-15}{1,-15}{2,-20}{3,-20}{4,-20}",
@@ -35,7 +35,7 @@ class Program
             var mathPowResult = MeasureMathPow(x, n, out double mathPowTime);
             var improvedResult = MeasureImprovedFastPower(x, n, out double improvedTime);
 
-            Console.WriteLine("{0,-15}{1,-15}{2,-20:F4}{3,-20:F4}{4,-20:F4}",
+            Console.WriteLine("{0,-15}{1,-15}{2,-20}{3,-20}{4,-20}",
                 x, n, iterativeTime, mathPowTime, improvedTime);
         }
     }
@@ -53,7 +53,7 @@ class Program
         }
 
         stopwatch.Stop();
-        elapsedTime = stopwatch.Elapsed.TotalMilliseconds;
+        elapsedTime = stopwatch.ElapsedTicks;
 
         return power;
     }
@@ -65,7 +65,7 @@ class Program
         double result = Math.Pow(x, n);
 
         stopwatch.Stop();
-        elapsedTime = stopwatch.Elapsed.TotalMilliseconds;
+        elapsedTime = stopwatch.ElapsedTicks;
 
         return result;
     }
@@ -82,7 +82,7 @@ class Program
         }
 
         stopwatch.Stop();
-        improvedTime = stopwatch.Elapsed.TotalMilliseconds;
+        improvedTime = stopwatch.ElapsedTicks;
 
         return power;
     }

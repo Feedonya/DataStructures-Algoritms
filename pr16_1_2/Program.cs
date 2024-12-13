@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 class Program
 {
@@ -22,8 +23,17 @@ class Program
             var parts = line.Split(new[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
             numbers.AddRange(parts.Select(int.Parse));
         }
-
+        foreach (var number in numbers)
+        {
+            Console.WriteLine(number.ToString());
+        }
+        Console.WriteLine("\n");
         var positiveNumbers = numbers.Where(n => n < 0).OrderBy(num => -num);
+
+        foreach (var number in positiveNumbers)
+        {
+            Console.WriteLine(number.ToString());
+        }
 
         using (StreamWriter writer = new StreamWriter(outputFile))
         {
