@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFigure xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Figure xsi:type="Triangle">
+    <A>3</A>
+    <B>4</B>
+    <C>5</C>
+  </Figure>
+  <Figure xsi:type="Rectangle">
+    <Width>2</Width>
+    <Height>3</Height>
+  </Figure>
+  <Figure xsi:type="Triangle">
+    <A>6</A>
+    <B>8</B>
+    <C>10</C>
+  </Figure>
+  <Figure xsi:type="Rectangle">
+    <Width>5</Width>
+    <Height>10</Height>
+  </Figure>
+  <Figure xsi:type="Circle">
+    <Radius>7</Radius>
+  </Figure>
+  <Figure xsi:type="Circle">
+    <Radius>10</Radius>
+  </Figure>
+</ArrayOfFigure>
