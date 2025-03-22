@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\A\u0026SD\\3 sem\\pr18-19_1\\pr_18-19_1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5C661F5C-6AF2-42E0-BDAC-AA757B5202CE}|pr_18-19_1.csproj|c:\\users\\user\\desktop\\a\u0026sd\\3 sem\\pr18-19_1\\pr_18-19_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C661F5C-6AF2-42E0-BDAC-AA757B5202CE}|pr_18-19_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5C661F5C-6AF2-42E0-BDAC-AA757B5202CE}|pr_18-19_1.csproj|c:\\users\\user\\desktop\\a\u0026sd\\3 sem\\pr18-19_1\\pr_18-19_1\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5C661F5C-6AF2-42E0-BDAC-AA757B5202CE}|pr_18-19_1.csproj|solutionrelative:triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,10 +23,6 @@
       "RelativeMoniker": "D:0:0:{5C661F5C-6AF2-42E0-BDAC-AA757B5202CE}|pr_18-19_1.csproj|solutionrelative:circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C661F5C-6AF2-42E0-BDAC-AA757B5202CE}|pr_18-19_1.csproj|c:\\users\\user\\desktop\\a\u0026sd\\3 sem\\pr18-19_1\\pr_18-19_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C661F5C-6AF2-42E0-BDAC-AA757B5202CE}|pr_18-19_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5C661F5C-6AF2-42E0-BDAC-AA757B5202CE}|pr_18-19_1.csproj|c:\\users\\user\\desktop\\a\u0026sd\\3 sem\\pr18-19_1\\pr_18-19_1\\figures.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{5C661F5C-6AF2-42E0-BDAC-AA757B5202CE}|pr_18-19_1.csproj|solutionrelative:figures.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Figure.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\3 sem\\pr18-19_1\\pr_18-19_1\\Figure.cs",
               "RelativeDocumentMoniker": "Figure.cs",
@@ -47,8 +47,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T08:01:10.724Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -60,12 +59,11 @@
               "RelativeToolTip": "figures.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-04T08:50:04.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T08:50:04.562Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Triangle.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\3 sem\\pr18-19_1\\pr_18-19_1\\Triangle.cs",
               "RelativeDocumentMoniker": "Triangle.cs",
@@ -78,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Circle.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\3 sem\\pr18-19_1\\pr_18-19_1\\Circle.cs",
               "RelativeDocumentMoniker": "Circle.cs",
@@ -86,12 +84,11 @@
               "RelativeToolTip": "Circle.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAYwBMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:45:50.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T20:45:50.646Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Rectangle.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\3 sem\\pr18-19_1\\pr_18-19_1\\Rectangle.cs",
               "RelativeDocumentMoniker": "Rectangle.cs",
@@ -99,18 +96,17 @@
               "RelativeToolTip": "Rectangle.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAYwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:43:42.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T20:43:42.164Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\3 sem\\pr18-19_1\\pr_18-19_1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\3 sem\\pr18-19_1\\pr_18-19_1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T11:53:47.665Z",
               "EditorCaption": ""

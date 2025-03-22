@@ -1,32 +1,31 @@
 ﻿using System;
 using System.IO;
 
-
-public class Node
+public class Node<T>
 {
-    public object Inf;
-    public Node Next;
-    public Node(object nodeInfo)
+    public T Inf;
+    public Node<T> Next;
+    public Node(T nodeInfo)
     {
         Inf = nodeInfo;
         Next = null;
     }
 }
 
-public class List
+public class My_List<T> where T : IComparable<T>
 {
-    private Node head;
-    private Node tail;
+    private Node<T> head;
+    private Node<T> tail;
 
-    public List()
+    public My_List()
     {
         head = null;
         tail = null;
     }
 
-    public void AddEnd(object nodeInfo)
+    public void AddEnd(T nodeInfo)
     {
-        Node r = new Node(nodeInfo);
+        Node<T> r = new Node<T>(nodeInfo);
         if (head == null)
         {
             head = r;
@@ -41,7 +40,7 @@ public class List
 
     public void Show()
     {
-        Node r = head;
+        Node<T> r = head;
         while (r != null)
         {
             Console.Write("{0} ", r.Inf);
@@ -50,15 +49,19 @@ public class List
         Console.WriteLine();
     }
 
-    public void ReadFromFile(string filename)
+    public void ReadFromFile(string filename, Func<string, T> parser)
     {
-        string[] numbers = File.ReadAllText(filename).Split(new[] { ' ', '\n', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+        string[] values = File.ReadAllText(filename).Split(new[] { ' ', '\n', '\t' }, StringSplitOptions.RemoveEmptyEntries);
 
-        foreach (string num in numbers)
+        foreach (string val in values)
         {
-            if (int.TryParse(num, out int value))
+            try
             {
-                AddEnd(value);
+                AddEnd(parser(val));
+            }
+            catch
+            {
+                Console.WriteLine($"Ошибка при чтении значения: {val}");
             }
         }
     }
@@ -67,7 +70,7 @@ public class List
     {
         using (StreamWriter writer = new StreamWriter(filename))
         {
-            Node r = head;
+            Node<T> r = head;
             while (r != null)
             {
                 writer.Write(r.Inf + " ");
@@ -76,17 +79,16 @@ public class List
         }
     }
 
-    public void DeleteBefore(object x)
+    public void DeleteBefore(T x)
     {
         if (head == null || head.Next == null) return;
 
-        Node prev = null;
-        Node current = head;
-        Node beforeCurrent = null;
+        Node<T> prev = null;
+        Node<T> current = head;
 
         while (current != null && current.Next != null)
         {
-            if (((IComparable)(current.Next.Inf)).CompareTo(x) == 0)
+            if (current.Next.Inf.CompareTo(x) == 0)
             {
                 if (prev != null)
                 {
@@ -111,13 +113,13 @@ class Program
 {
     static void Main()
     {
-        List myList = new List();
+        My_List<int> myList = new My_List<int>();
 
-        myList.ReadFromFile("C:\\Users\\user\\Desktop\\A&SD\\4 sem\\pr20_6\\input.txt");
+        myList.ReadFromFile("C:\\Users\\user\\Desktop\\A&SD\\4 sem\\pr20_6\\input.txt", int.Parse);
 
         Console.WriteLine("Исходный список:");
         myList.Show();
-
+        
         Console.Write("Введите x: ");
         int x = int.Parse(Console.ReadLine());
         myList.DeleteBefore(x);
@@ -125,6 +127,6 @@ class Program
         Console.WriteLine("Обработанный список:");
         myList.Show();
 
-        myList.WriteToFile("output.txt");
+        myList.WriteToFile("C:\\Users\\user\\Desktop\\A&SD\\4 sem\\pr20_6\\output.txt");
     }
 }
