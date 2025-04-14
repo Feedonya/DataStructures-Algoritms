@@ -1,210 +1,92 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
+using System.Collections.Generic;
 
-namespace BST_BalanceCheck
+public class AVLTree
 {
-    public class BinarySearchTree
+    private class Node
     {
-        private class Node
-        {
-            public int Value { get; set; }
-            public Node Left { get; set; }
-            public Node Right { get; set; }
+        public int inf;
+        public int height;
+        public Node left;
+        public Node right;
 
-            public Node(int value)
+        public Node(int nodeInf)
+        {
+            inf = nodeInf;
+            height = 1;
+            left = null;
+            right = null;
+        }
+
+        public int Height => this?.height ?? 0;
+
+        public int BalanceFactor
+        {
+            get
             {
-                Value = value;
-                Left = null;
-                Right = null;
+                int rh = right?.Height ?? 0;
+                int lh = left?.Height ?? 0;
+                return rh - lh;
             }
         }
 
-        private Node root;
-
-        public BinarySearchTree()
+        public void NewHeight()
         {
-            root = null;
+            int rh = right?.Height ?? 0;
+            int lh = left?.Height ?? 0;
+            height = Math.Max(rh, lh) + 1;
         }
 
-        // Метод для добавления элемента в дерево
-        public void Add(int value)
+        public static void RotationRight(ref Node t)
         {
-            root = Insert(root, value);
+            Node x = t.left;
+            t.left = x.right;
+            x.right = t;
+            t.NewHeight();
+            x.NewHeight();
+            t = x;
         }
 
-        private Node Insert(Node node, int value)
+        public static void RotationLeft(ref Node t)
         {
-            if (node == null)
-            {
-                return new Node(value);
-            }
-
-            if (value < node.Value)
-            {
-                node.Left = Insert(node.Left, value);
-            }
-            else if (value > node.Value)
-            {
-                node.Right = Insert(node.Right, value);
-            }
-
-            return node;
+            Node x = t.right;
+            t.right = x.left;
+            x.left = t;
+            t.NewHeight();
+            x.NewHeight();
+            t = x;
         }
 
-        // Проверка, является ли дерево сбалансированным
-        public bool IsBalanced()
+        public static void Rotation(ref Node t)
         {
-            return CheckBalance(root) != -1;
-        }
-
-        private int CheckBalance(Node node)
-        {
-            if (node == null)
+            t.NewHeight();
+            if (t.BalanceFactor == 2)
             {
-                return 0;
+                if (t.right?.BalanceFactor < 0)
+                    RotationRight(ref t.right);
+                RotationLeft(ref t);
             }
-
-            int leftHeight = CheckBalance(node.Left);
-            if (leftHeight == -1)
+            if (t.BalanceFactor == -2)
             {
-                return -1; // Левое поддерево несбалансировано
-            }
-
-            int rightHeight = CheckBalance(node.Right);
-            if (rightHeight == -1)
-            {
-                return -1; // Правое поддерево несбалансировано
-            }
-
-            if (Math.Abs(leftHeight - rightHeight) > 1)
-            {
-                return -1; // Текущий узел несбалансирован
-            }
-
-            return Math.Max(leftHeight, rightHeight) + 1;
-        }
-
-        // Получение всех значений в дереве для анализа
-        public List<int> GetAllValues()
-        {
-            List<int> values = new List<int>();
-            InOrderTraversal(root, values);
-            return values;
-        }
-
-        private void InOrderTraversal(Node node, List<int> values)
-        {
-            if (node == null)
-            {
-                return;
-            }
-
-            InOrderTraversal(node.Left, values);
-            values.Add(node.Value);
-            InOrderTraversal(node.Right, values);
-        }
-
-        // Проверка возможности сбалансировать дерево добавлением до n узлов
-        public List<int> CanBalanceByAdding(int n)
-        {
-            List<int> values = GetAllValues();
-            HashSet<int> possibleValues = new HashSet<int>();
-
-            // Генерация всех возможных значений для добавления
-            for (int i = -1000; i <= 1000; i++) // Диапазон значений для добавления
-            {
-                if (!values.Contains(i))
-                {
-                    possibleValues.Add(i);
-                }
-            }
-
-            // Проверка всех комбинаций добавления до n узлов
-            foreach (var combination in GetCombinations(possibleValues.ToList(), n))
-            {
-                BinarySearchTree testTree = new BinarySearchTree();
-                foreach (var value in values)
-                {
-                    testTree.Add(value);
-                }
-
-                foreach (var value in combination)
-                {
-                    testTree.Add(value);
-                }
-
-                if (testTree.IsBalanced())
-                {
-                    return combination;
-                }
-            }
-
-            return new List<int>(); // Если невозможно сбалансировать
-        }
-
-        // Вспомогательный метод для генерации комбинаций
-        private IEnumerable<List<int>> GetCombinations(List<int> list, int n)
-        {
-            if (n == 0)
-            {
-                yield return new List<int>();
-                yield break;
-            }
-
-            for (int i = 0; i < list.Count; i++)
-            {
-                int current = list[i];
-                List<int> remaining = list.Skip(i + 1).ToList();
-
-                foreach (var combo in GetCombinations(remaining, n - 1))
-                {
-                    combo.Insert(0, current);
-                    yield return combo;
-                }
+                if (t.left?.BalanceFactor > 0)
+                    RotationLeft(ref t.left);
+                RotationRight(ref t);
             }
         }
-    }
-
-    class Program
-    {
-        static void Main(string[] args)
+        
+        public static void Add(ref Node r, int nodeInf)
         {
-            string filePath = "C:\\Users\\user\\Desktop\\A&SD\\4 sem\\pr21_1_1\\input.txt";
-
-            string fileContent = File.ReadAllText(filePath).Trim();
-            int[] numbers = fileContent
-                .Split(new[] { ' ', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToArray();
-
-            BinarySearchTree bst = new BinarySearchTree();
-            foreach (int number in numbers)
+            if (r == null)
+                r = new Node(nodeInf);
+            else
             {
-                bst.Add(number);
-            }
-
-            bool isBalanced = bst.IsBalanced();
-            Console.WriteLine(isBalanced
-                ? "Дерево сбалансировано."
-                : "Дерево несбалансировано.");
-
-            if (!isBalanced)
-            {
-                Console.Write("Введите максимальное количество узлов для добавления (n): ");
-                int n = int.Parse(Console.ReadLine());
-
-                List<int> result = bst.CanBalanceByAdding(n);
-                if (result.Count > 0)
-                {
-                    Console.WriteLine($"Можно добавить следующие узлы: {string.Join(", ", result)}");
-                }
+                if (r.inf.CompareTo(nodeInf) > 0)
+                    Add(ref r.left, nodeInf);
                 else
-                {
-                    Console.WriteLine("Невозможно сбалансировать дерево добавлением до n узлов.");
-                }
+                    Add(ref r.right, nodeInf);
             }
+            Rotation(ref r);
         }
     }
 }

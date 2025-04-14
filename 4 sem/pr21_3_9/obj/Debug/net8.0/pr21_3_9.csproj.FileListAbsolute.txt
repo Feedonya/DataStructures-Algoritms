@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\A&SD\4 sem\pr21_3_9\bin\Debug\net8.0\pr21_3_9.exe
+C:\Users\user\Desktop\A&SD\4 sem\pr21_3_9\bin\Debug\net8.0\pr21_3_9.deps.json
+C:\Users\user\Desktop\A&SD\4 sem\pr21_3_9\bin\Debug\net8.0\pr21_3_9.runtimeconfig.json
+C:\Users\user\Desktop\A&SD\4 sem\pr21_3_9\bin\Debug\net8.0\pr21_3_9.dll
+C:\Users\user\Desktop\A&SD\4 sem\pr21_3_9\bin\Debug\net8.0\pr21_3_9.pdb
+C:\Users\user\Desktop\A&SD\4 sem\pr21_3_9\obj\Debug\net8.0\pr21_3_9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\A&SD\4 sem\pr21_3_9\obj\Debug\net8.0\pr21_3_9.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\A&SD\4 sem\pr21_3_9\obj\Debug\net8.0\pr21_3_9.AssemblyInfo.cs
+C:\Users\user\Desktop\A&SD\4 sem\pr21_3_9\obj\Debug\net8.0\pr21_3_9.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\A&SD\4 sem\pr21_3_9\obj\Debug\net8.0\pr21_3_9.sourcelink.json
+C:\Users\user\Desktop\A&SD\4 sem\pr21_3_9\obj\Debug\net8.0\pr21_3_9.dll
+C:\Users\user\Desktop\A&SD\4 sem\pr21_3_9\obj\Debug\net8.0\refint\pr21_3_9.dll
+C:\Users\user\Desktop\A&SD\4 sem\pr21_3_9\obj\Debug\net8.0\pr21_3_9.pdb
+C:\Users\user\Desktop\A&SD\4 sem\pr21_3_9\obj\Debug\net8.0\pr21_3_9.genruntimeconfig.cache
+C:\Users\user\Desktop\A&SD\4 sem\pr21_3_9\obj\Debug\net8.0\ref\pr21_3_9.dll

@@ -127,7 +127,7 @@ namespace AVL_Tree
     {
         static void Main(string[] args)
         {
-            string fileContent = File.ReadAllText("C:\\Users\\user\\Desktop\\A&SD\\4 sem\\pr21_1_1\\input.txt").Trim();
+            string fileContent = File.ReadAllText("C:\\Users\\user\\Desktop\\A&SD\\4 sem\\pr21_2_1\\input.txt").Trim();
 
             int[] numbers = fileContent
                 .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
