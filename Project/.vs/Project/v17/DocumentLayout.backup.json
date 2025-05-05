@@ -1,57 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Project\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28AC5B0B-CD21-4603-87C4-823FDA4D117F}|App\\App.csproj|c:\\users\\user\\desktop\\project\\app\\consoleapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28AC5B0B-CD21-4603-87C4-823FDA4D117F}|App\\App.csproj|solutionrelative:app\\consoleapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42BD5119-3B51-46B9-BBAC-CD0F7CDA9DF4}|Entities\\Entities.csproj|c:\\users\\user\\desktop\\project\\entities\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42BD5119-3B51-46B9-BBAC-CD0F7CDA9DF4}|Entities\\Entities.csproj|solutionrelative:entities\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28AC5B0B-CD21-4603-87C4-823FDA4D117F}|App\\App.csproj|c:\\users\\user\\desktop\\project\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28AC5B0B-CD21-4603-87C4-823FDA4D117F}|App\\App.csproj|solutionrelative:app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36CB286F-CA9F-4F19-B80A-49770636A0D2}|Data\\Data.csproj|c:\\users\\user\\desktop\\project\\data\\figurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36CB286F-CA9F-4F19-B80A-49770636A0D2}|Data\\Data.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project\\data\\figurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36CB286F-CA9F-4F19-B80A-49770636A0D2}|Data\\Data.csproj|solutionrelative:data\\figurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{540E2816-9EAB-4D95-9B56-5796D964D9AF}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\project\\domain\\services\\figureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{28AC5B0B-CD21-4603-87C4-823FDA4D117F}|App\\App.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project\\app\\consoleapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28AC5B0B-CD21-4603-87C4-823FDA4D117F}|App\\App.csproj|solutionrelative:app\\consoleapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42BD5119-3B51-46B9-BBAC-CD0F7CDA9DF4}|Entities\\Entities.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project\\entities\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42BD5119-3B51-46B9-BBAC-CD0F7CDA9DF4}|Entities\\Entities.csproj|solutionrelative:entities\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28AC5B0B-CD21-4603-87C4-823FDA4D117F}|App\\App.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project\\app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28AC5B0B-CD21-4603-87C4-823FDA4D117F}|App\\App.csproj|solutionrelative:app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540E2816-9EAB-4D95-9B56-5796D964D9AF}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project\\domain\\services\\figureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{540E2816-9EAB-4D95-9B56-5796D964D9AF}|Domain\\Domain.csproj|solutionrelative:domain\\services\\figureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28AC5B0B-CD21-4603-87C4-823FDA4D117F}|App\\App.csproj|c:\\users\\user\\desktop\\project\\app\\app.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{28AC5B0B-CD21-4603-87C4-823FDA4D117F}|App\\App.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project\\app\\app.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{28AC5B0B-CD21-4603-87C4-823FDA4D117F}|App\\App.csproj|solutionrelative:app\\app.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28AC5B0B-CD21-4603-87C4-823FDA4D117F}|App\\App.csproj|c:\\users\\user\\desktop\\project\\app\\app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{28AC5B0B-CD21-4603-87C4-823FDA4D117F}|App\\App.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project\\app\\app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{28AC5B0B-CD21-4603-87C4-823FDA4D117F}|App\\App.csproj|solutionrelative:app\\app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42BD5119-3B51-46B9-BBAC-CD0F7CDA9DF4}|Entities\\Entities.csproj|c:\\users\\user\\desktop\\project\\entities\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42BD5119-3B51-46B9-BBAC-CD0F7CDA9DF4}|Entities\\Entities.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project\\entities\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42BD5119-3B51-46B9-BBAC-CD0F7CDA9DF4}|Entities\\Entities.csproj|solutionrelative:entities\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42BD5119-3B51-46B9-BBAC-CD0F7CDA9DF4}|Entities\\Entities.csproj|c:\\users\\user\\desktop\\project\\entities\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42BD5119-3B51-46B9-BBAC-CD0F7CDA9DF4}|Entities\\Entities.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project\\entities\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42BD5119-3B51-46B9-BBAC-CD0F7CDA9DF4}|Entities\\Entities.csproj|solutionrelative:entities\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42BD5119-3B51-46B9-BBAC-CD0F7CDA9DF4}|Entities\\Entities.csproj|c:\\users\\user\\desktop\\project\\entities\\figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42BD5119-3B51-46B9-BBAC-CD0F7CDA9DF4}|Entities\\Entities.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project\\entities\\figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42BD5119-3B51-46B9-BBAC-CD0F7CDA9DF4}|Entities\\Entities.csproj|solutionrelative:entities\\figure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{540E2816-9EAB-4D95-9B56-5796D964D9AF}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\project\\domain\\services\\ifigureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{540E2816-9EAB-4D95-9B56-5796D964D9AF}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project\\domain\\services\\ifigureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{540E2816-9EAB-4D95-9B56-5796D964D9AF}|Domain\\Domain.csproj|solutionrelative:domain\\services\\ifigureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36CB286F-CA9F-4F19-B80A-49770636A0D2}|Data\\Data.csproj|c:\\users\\user\\desktop\\project\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{36CB286F-CA9F-4F19-B80A-49770636A0D2}|Data\\Data.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project\\data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{36CB286F-CA9F-4F19-B80A-49770636A0D2}|Data\\Data.csproj|solutionrelative:data\\data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{540E2816-9EAB-4D95-9B56-5796D964D9AF}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\project\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{540E2816-9EAB-4D95-9B56-5796D964D9AF}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{540E2816-9EAB-4D95-9B56-5796D964D9AF}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -62,134 +62,126 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ConsoleApp.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Project\\App\\ConsoleApp.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\App\\ConsoleApp.cs",
               "RelativeDocumentMoniker": "App\\ConsoleApp.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Project\\App\\ConsoleApp.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\App\\ConsoleApp.cs",
               "RelativeToolTip": "App\\ConsoleApp.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAvwFsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T16:03:33.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Project\\App\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\App\\Program.cs",
               "RelativeDocumentMoniker": "App\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Project\\App\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\App\\Program.cs",
               "RelativeToolTip": "App\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T16:03:20.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T16:03:20.949Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Rectangle.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Project\\Entities\\Rectangle.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Entities\\Rectangle.cs",
               "RelativeDocumentMoniker": "Entities\\Rectangle.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Project\\Entities\\Rectangle.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Entities\\Rectangle.cs",
               "RelativeToolTip": "Entities\\Rectangle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T16:02:44.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T16:02:44.026Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Circle.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Project\\Entities\\Circle.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Entities\\Circle.cs",
               "RelativeDocumentMoniker": "Entities\\Circle.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Project\\Entities\\Circle.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Entities\\Circle.cs",
               "RelativeToolTip": "Entities\\Circle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T16:02:33.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T16:02:33.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Triangle.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Project\\Entities\\Triangle.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Entities\\Triangle.cs",
               "RelativeDocumentMoniker": "Entities\\Triangle.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Project\\Entities\\Triangle.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Entities\\Triangle.cs",
               "RelativeToolTip": "Entities\\Triangle.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAgwBIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T16:02:22.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T16:02:22.63Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Figure.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Project\\Entities\\Figure.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Entities\\Figure.cs",
               "RelativeDocumentMoniker": "Entities\\Figure.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Project\\Entities\\Figure.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Entities\\Figure.cs",
               "RelativeToolTip": "Entities\\Figure.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T16:02:02.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T16:02:02.959Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "FigureService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Project\\Domain\\Services\\FigureService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Domain\\Services\\FigureService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\FigureService.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Project\\Domain\\Services\\FigureService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Domain\\Services\\FigureService.cs",
               "RelativeToolTip": "Domain\\Services\\FigureService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T16:01:22.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T16:01:22.612Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Domain",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Project\\Domain\\Domain.csproj",
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Project\\Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Domain\\Domain.csproj",
               "RelativeToolTip": "Domain\\Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-19T16:00:26.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T16:00:26.652Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "IFigureService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Project\\Domain\\Services\\IFigureService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Domain\\Services\\IFigureService.cs",
               "RelativeDocumentMoniker": "Domain\\Services\\IFigureService.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Project\\Domain\\Services\\IFigureService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Domain\\Services\\IFigureService.cs",
               "RelativeToolTip": "Domain\\Services\\IFigureService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T16:00:19.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T16:00:19.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "FigureRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Project\\Data\\FigureRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Data\\FigureRepository.cs",
               "RelativeDocumentMoniker": "Data\\FigureRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Project\\Data\\FigureRepository.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Data\\FigureRepository.cs",
               "RelativeToolTip": "Data\\FigureRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-19T15:54:41.12Z",
               "EditorCaption": ""
@@ -197,40 +189,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Data",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Project\\Data\\Data.csproj",
+              "Title": "Data.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Data\\Data.csproj",
               "RelativeDocumentMoniker": "Data\\Data.csproj",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Project\\Data\\Data.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\Data\\Data.csproj",
               "RelativeToolTip": "Data\\Data.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-19T16:30:46.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T16:30:46.592Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "App",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Project\\App\\App.csproj",
+              "Title": "App.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\App\\App.csproj",
               "RelativeDocumentMoniker": "App\\App.csproj",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Project\\App\\App.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\App\\App.csproj",
               "RelativeToolTip": "App\\App.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-19T16:31:54.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T16:31:54.27Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "App",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Project\\App\\App.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\App\\App.csproj",
               "RelativeDocumentMoniker": "App\\App.csproj",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Project\\App\\App.csproj",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project\\App\\App.csproj",
               "RelativeToolTip": "App\\App.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-19T16:37:39.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T16:37:39.59Z"
             }
           ]
         }

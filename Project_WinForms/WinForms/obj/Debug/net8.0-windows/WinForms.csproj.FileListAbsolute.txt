@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\A&SD\Project_WinForms\WinForms\obj\Debug\net8.0-windows\WinForms.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\A&SD\Project_WinForms\WinForms\obj\Debug\net8.0-windows\WinForms.Form1.resources
+C:\Users\user\Desktop\A&SD\Project_WinForms\WinForms\obj\Debug\net8.0-windows\Project.WinForms.MainForm.resources
+C:\Users\user\Desktop\A&SD\Project_WinForms\WinForms\obj\Debug\net8.0-windows\WinForms.csproj.GenerateResource.cache
+C:\Users\user\Desktop\A&SD\Project_WinForms\WinForms\obj\Debug\net8.0-windows\WinForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\A&SD\Project_WinForms\WinForms\obj\Debug\net8.0-windows\WinForms.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\A&SD\Project_WinForms\WinForms\obj\Debug\net8.0-windows\WinForms.AssemblyInfo.cs
+C:\Users\user\Desktop\A&SD\Project_WinForms\WinForms\obj\Debug\net8.0-windows\WinForms.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\A&SD\Project_WinForms\WinForms\obj\Debug\net8.0-windows\WinForms.sourcelink.json
+C:\Users\user\Desktop\A&SD\Project_WinForms\WinForms\obj\Debug\net8.0-windows\Project.WinForms.Program.resources
