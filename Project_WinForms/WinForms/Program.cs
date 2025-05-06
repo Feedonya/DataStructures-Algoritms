@@ -1,5 +1,6 @@
-using System;
+п»їusing System;
 using System.Windows.Forms;
+using WinForms;
 
 namespace Project.WinForms
 {
@@ -8,10 +9,9 @@ namespace Project.WinForms
         [STAThread]
         static void Main()
         {
-            Application.SetHighDpiMode(HighDpiMode.SystemAware); // Исправляет масштабирование
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm()); // Запуск вашей главной формы
+            Application.Run(new MainForm());
         }
     }
 }

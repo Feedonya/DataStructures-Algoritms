@@ -5,7 +5,7 @@ namespace Project.Data
 {
     public class FigureRepository
     {
-        private const string FilePath = "C:\\Users\\user\\Desktop\\A&SD\\Project\\Projectfigures.xml";
+        private const string FilePath = @"C:\\Users\\user\\Desktop\\A&SD\\Project\\Projectfigures.xml";
 
         public List<Figure> GetAll()
         {
