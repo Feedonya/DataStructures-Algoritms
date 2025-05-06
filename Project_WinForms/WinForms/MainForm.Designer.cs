@@ -90,6 +90,7 @@
             // 
             indexTextBox.Location = new Point(232, 289);
             indexTextBox.Name = "indexTextBox";
+            indexTextBox.PlaceholderText = "Индекс...";
             indexTextBox.Size = new Size(175, 27);
             indexTextBox.TabIndex = 5;
             // 
@@ -99,7 +100,7 @@
             figuresListBox.FormattingEnabled = true;
             figuresListBox.Location = new Point(0, 0);
             figuresListBox.Name = "figuresListBox";
-            figuresListBox.Size = new Size(800, 450);
+            figuresListBox.Size = new Size(607, 436);
             figuresListBox.TabIndex = 6;
             figuresListBox.SelectedIndexChanged += figuresListBox_SelectedIndexChanged;
             // 
@@ -107,7 +108,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(607, 436);
             Controls.Add(removeButton);
             Controls.Add(exitButton);
             Controls.Add(addButton);

@@ -1,16 +1,4 @@
 ﻿using Project.Entities;
-using Project.Data;
-using Project.Domain;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace WinForms
 {
@@ -22,6 +10,7 @@ namespace WinForms
         {
             InitializeComponent();
             figureTypeComboBox.Items.AddRange(new[] { "Triangle", "Circle", "Rectangle" });
+            HideAllFields();
         }
 
         private void CreateButton_Click(object sender, EventArgs e)
@@ -108,30 +97,50 @@ namespace WinForms
 
         private void figureTypeComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Скрыть все поля
+            // Скрыть все поля по умолчанию
+            HideAllFields();
+
+            // Показать нужные поля в зависимости от типа фигуры
+            switch (figureTypeComboBox.SelectedItem?.ToString())
+            {
+                case "Triangle":
+                    ShowTriangleFields();
+                    break;
+                case "Circle":
+                    ShowCircleFields();
+                    break;
+                case "Rectangle":
+                    ShowRectangleFields();
+                    break;
+            }
+        }
+
+        private void HideAllFields()
+        {
             aTextBox.Visible = false;
             bTextBox.Visible = false;
             cTextBox.Visible = false;
             radiusTextBox.Visible = false;
             widthTextBox.Visible = false;
             heightTextBox.Visible = false;
+        }
 
-            // Показать нужные поля
-            switch (figureTypeComboBox.SelectedItem?.ToString())
-            {
-                case "Triangle":
-                    aTextBox.Visible = true;
-                    bTextBox.Visible = true;
-                    cTextBox.Visible = true;
-                    break;
-                case "Circle":
-                    radiusTextBox.Visible = true;
-                    break;
-                case "Rectangle":
-                    widthTextBox.Visible = true;
-                    heightTextBox.Visible = true;
-                    break;
-            }
+        private void ShowTriangleFields()
+        {
+            aTextBox.Visible = true;
+            bTextBox.Visible = true;
+            cTextBox.Visible = true;
+        }
+
+        private void ShowCircleFields()
+        {
+            radiusTextBox.Visible = true;
+        }
+
+        private void ShowRectangleFields()
+        {
+            widthTextBox.Visible = true;
+            heightTextBox.Visible = true;
         }
     }
 }

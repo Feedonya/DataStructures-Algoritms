@@ -15,7 +15,7 @@ namespace Project.Entities
 
         public override string ToString()
         {
-            return $"Фигура: {GetType().Name}\nПлощадь: {GetArea()}\nПериметр: {GetPerimeter()}";
+            return $"Фигура: {GetType().Name}, Площадь: {GetArea()}, Периметр: {GetPerimeter()}";
         }
 
         public int CompareTo(Figure other)

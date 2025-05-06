@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0798FD8A-0F74-4C0A-B331-483FD3979B28}|WinForms\\WinForms.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project_winforms\\winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0798FD8A-0F74-4C0A-B331-483FD3979B28}|WinForms\\WinForms.csproj|solutionrelative:winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0798FD8A-0F74-4C0A-B331-483FD3979B28}|WinForms\\WinForms.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project_winforms\\winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0798FD8A-0F74-4C0A-B331-483FD3979B28}|WinForms\\WinForms.csproj|solutionrelative:winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0798FD8A-0F74-4C0A-B331-483FD3979B28}|WinForms\\WinForms.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project_winforms\\winforms\\addfigureform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0798FD8A-0F74-4C0A-B331-483FD3979B28}|WinForms\\WinForms.csproj|solutionrelative:winforms\\addfigureform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,47 +11,39 @@
       "RelativeMoniker": "D:0:0:{0798FD8A-0F74-4C0A-B331-483FD3979B28}|WinForms\\WinForms.csproj|solutionrelative:winforms\\addfigureform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0798FD8A-0F74-4C0A-B331-483FD3979B28}|WinForms\\WinForms.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project_winforms\\winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0798FD8A-0F74-4C0A-B331-483FD3979B28}|WinForms\\WinForms.csproj|C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0798FD8A-0F74-4C0A-B331-483FD3979B28}|WinForms\\WinForms.csproj|solutionrelative:winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0798FD8A-0F74-4C0A-B331-483FD3979B28}|WinForms\\WinForms.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project_winforms\\winforms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0798FD8A-0F74-4C0A-B331-483FD3979B28}|WinForms\\WinForms.csproj|solutionrelative:winforms\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36CB286F-CA9F-4F19-B80A-49770636A0D2}|Data\\Data.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project_winforms\\data\\figurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36CB286F-CA9F-4F19-B80A-49770636A0D2}|Data\\Data.csproj|solutionrelative:data\\figurerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{540E2816-9EAB-4D95-9B56-5796D964D9AF}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project_winforms\\domain\\services\\figureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{540E2816-9EAB-4D95-9B56-5796D964D9AF}|Domain\\Domain.csproj|solutionrelative:domain\\services\\figureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0798FD8A-0F74-4C0A-B331-483FD3979B28}|WinForms\\WinForms.csproj|c:\\users\\user\\desktop\\a\u0026sd\\project_winforms\\winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0798FD8A-0F74-4C0A-B331-483FD3979B28}|WinForms\\WinForms.csproj|solutionrelative:winforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\WinForms\\MainForm.Designer.cs",
-              "RelativeDocumentMoniker": "WinForms\\MainForm.Designer.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\WinForms\\MainForm.Designer.cs",
-              "RelativeToolTip": "WinForms\\MainForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AddFigureForm.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\WinForms\\AddFigureForm.cs",
+              "RelativeDocumentMoniker": "WinForms\\AddFigureForm.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\WinForms\\AddFigureForm.cs",
+              "RelativeToolTip": "WinForms\\AddFigureForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T09:30:18.884Z",
+              "WhenOpened": "2025-05-05T09:37:58.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\WinForms\\MainForm.cs",
               "RelativeDocumentMoniker": "WinForms\\MainForm.cs",
@@ -71,80 +55,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\WinForms\\MainForm.cs",
               "RelativeDocumentMoniker": "WinForms\\MainForm.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\WinForms\\MainForm.cs",
               "RelativeToolTip": "WinForms\\MainForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T09:22:48.304Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\WinForms\\Program.cs",
-              "RelativeDocumentMoniker": "WinForms\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\WinForms\\Program.cs",
-              "RelativeToolTip": "WinForms\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T09:20:32.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AddFigureForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\WinForms\\AddFigureForm.cs",
               "RelativeDocumentMoniker": "WinForms\\AddFigureForm.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\WinForms\\AddFigureForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "RelativeToolTip": "WinForms\\AddFigureForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T09:20:22.629Z",
+              "WhenOpened": "2025-05-06T05:58:41.041Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddFigureForm.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\WinForms\\AddFigureForm.cs",
-              "RelativeDocumentMoniker": "WinForms\\AddFigureForm.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\WinForms\\AddFigureForm.cs",
-              "RelativeToolTip": "WinForms\\AddFigureForm.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAowF4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T09:37:58.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FigureRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\Data\\FigureRepository.cs",
-              "RelativeDocumentMoniker": "Data\\FigureRepository.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\Data\\FigureRepository.cs",
-              "RelativeToolTip": "Data\\FigureRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T09:45:57.923Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FigureService.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\Domain\\Services\\FigureService.cs",
-              "RelativeDocumentMoniker": "Domain\\Services\\FigureService.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\Project_WinForms\\Domain\\Services\\FigureService.cs",
-              "RelativeToolTip": "Domain\\Services\\FigureService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T09:37:40.3Z",
-              "EditorCaption": ""
             }
           ]
         }

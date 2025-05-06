@@ -51,49 +51,50 @@
             // 
             widthTextBox.Location = new Point(41, 387);
             widthTextBox.Name = "widthTextBox";
+            widthTextBox.PlaceholderText = "Ширина";
             widthTextBox.Size = new Size(125, 27);
-            widthTextBox.TabIndex = 1;
-            widthTextBox.Text = "Ширина";
+            widthTextBox.TabIndex = 5;
             // 
             // cTextBox
             // 
             cTextBox.Location = new Point(41, 208);
             cTextBox.Name = "cTextBox";
+            cTextBox.PlaceholderText = "Сторона C";
             cTextBox.Size = new Size(125, 27);
-            cTextBox.TabIndex = 2;
-            cTextBox.Text = "Сторона C";
+            cTextBox.TabIndex = 3;
             // 
             // heightTextBox
             // 
             heightTextBox.Location = new Point(41, 449);
             heightTextBox.Name = "heightTextBox";
+            heightTextBox.PlaceholderText = "Высота";
             heightTextBox.Size = new Size(125, 27);
-            heightTextBox.TabIndex = 3;
-            heightTextBox.Text = "Высота";
+            heightTextBox.TabIndex = 6;
             // 
             // radiusTextBox
             // 
             radiusTextBox.Location = new Point(41, 300);
             radiusTextBox.Name = "radiusTextBox";
+            radiusTextBox.PlaceholderText = "Радиус";
             radiusTextBox.Size = new Size(125, 27);
             radiusTextBox.TabIndex = 4;
-            radiusTextBox.Text = "Радиус";
             // 
             // bTextBox
             // 
             bTextBox.Location = new Point(41, 149);
             bTextBox.Name = "bTextBox";
+            bTextBox.PlaceholderText = "Сторона B";
             bTextBox.Size = new Size(125, 27);
-            bTextBox.TabIndex = 5;
-            bTextBox.Text = "Сторона B";
+            bTextBox.TabIndex = 2;
             // 
             // aTextBox
             // 
             aTextBox.Location = new Point(41, 95);
             aTextBox.Name = "aTextBox";
+            aTextBox.PlaceholderText = "Сторона A";
             aTextBox.Size = new Size(125, 27);
-            aTextBox.TabIndex = 6;
-            aTextBox.Text = "Сторона A";
+            aTextBox.TabIndex = 1;
+            aTextBox.Tag = "";
             // 
             // createButton
             // 
@@ -103,6 +104,7 @@
             createButton.TabIndex = 7;
             createButton.Text = "Создать";
             createButton.UseVisualStyleBackColor = true;
+            createButton.Click += CreateButton_Click;
             // 
             // AddFigureForm
             // 

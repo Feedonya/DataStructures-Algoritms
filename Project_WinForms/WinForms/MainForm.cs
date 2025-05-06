@@ -1,7 +1,5 @@
 ﻿using Project.Data;
-using Project.Domain;
 using Project.Domain.Services;
-using Project.Entities;
 
 namespace WinForms
 {
@@ -64,9 +62,16 @@ namespace WinForms
         private void RefreshFiguresList()
         {
             var figures = _figureService.GetAllFigures();
-            figuresListBox.DataSource = null; // Сброс старых данных
-            figuresListBox.DataSource = figures;
-            figuresListBox.DisplayMember = "ToString"; // Использует метод ToString() из Figure
+            figuresListBox.DataSource = null;
+
+            // Создаем список строк с индексами
+            var displayItems = new List<string>();
+            for (int i = 0; i < figures.Count; i++)
+            {
+                displayItems.Add($"[{i}] {figures[i]}");
+            }
+
+            figuresListBox.DataSource = displayItems;
         }
     }
 }
