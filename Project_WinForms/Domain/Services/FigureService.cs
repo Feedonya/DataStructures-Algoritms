@@ -19,9 +19,12 @@ namespace Project.Domain.Services
 
         public void AddFigure(Figure figure)
         {
-            var figures = _repository.GetAll();
-            figures.Add(figure);
-            _repository.SaveAll(figures);
+            if (figure != null)
+            {
+                var figures = _repository.GetAll();
+                figures.Add(figure);
+                _repository.SaveAll(figures);
+            }
         }
 
         public Figure GetFigureByIndex(int index)
@@ -40,6 +43,13 @@ namespace Project.Domain.Services
                 throw new IndexOutOfRangeException("Индекс фигуры вне диапазона");
 
             figures.RemoveAt(index);
+            _repository.SaveAll(figures);
+        }
+
+        public void SortFigures()
+        {
+            var figures = _repository.GetAll();
+            figures.Sort();
             _repository.SaveAll(figures);
         }
     }

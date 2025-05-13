@@ -73,5 +73,13 @@ namespace WinForms
 
             figuresListBox.DataSource = displayItems;
         }
+
+        private void sortButton_Click(object sender, EventArgs e)
+        {
+            if (_figureService != null) {
+                _figureService.SortFigures();
+                RefreshFiguresList();
+            }
+        }
     }
 }

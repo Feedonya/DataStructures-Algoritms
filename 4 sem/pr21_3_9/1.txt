@@ -1,0 +1,155 @@
+﻿using System;
+using System.IO;
+using System.Collections.Generic;
+
+public class BinaryTree
+{
+    private class Node
+    {
+        public int inf;
+        public int counter;
+        public Node left;
+        public Node right;
+
+        public Node(int nodeInf)
+        {
+            inf = nodeInf;
+            counter = 1;
+            left = null;
+            right = null;
+        }
+
+        public static void Add(ref Node r, int nodeInf)
+        {
+            if (r == null)
+            {
+                r = new Node(nodeInf);
+            }
+            else
+            {
+                r.counter++;
+                if (r.inf > nodeInf)
+                {
+                    Add(ref r.left, nodeInf);
+                }
+                else
+                {
+                    Add(ref r.right, nodeInf);
+                }
+            }
+        }
+
+        public static int Height(Node r)
+        {
+            if (r == null) return 0;
+            return 1 + Math.Max(Height(r.left), Height(r.right));
+        }
+
+        public static int CountNodes(Node r)
+        {
+            if (r == null) return 0;
+            return r.counter;
+        }
+    }
+
+    Node tree;
+
+    public BinaryTree()
+    {
+        tree = null;
+    }
+
+    public void Add(int nodeInf)
+    {
+        Node.Add(ref tree, nodeInf);
+    }
+
+    public int Height()
+    {
+        return Node.Height(tree);
+    }
+
+    public int Count()
+    {
+        return Node.CountNodes(tree);
+    }
+
+    public bool CanBalanceWithAdditions(int n, out List<(int, int)> possibleValues)
+    {
+        possibleValues = new List<(int, int)>();
+
+        int currentHeight = Height();
+        int currentNodes = Count();
+
+        //Для дерева высоты h минимальное количество узлов N(h) = N(h - 1) + N(h - 2) + 1
+        int[] minNodesForHeight = new int[currentHeight + 1];
+        minNodesForHeight[0] = 0;
+        if (currentHeight > 0) minNodesForHeight[1] = 1;
+
+        for (int h = 2; h <= currentHeight; h++)
+        {
+            minNodesForHeight[h] = minNodesForHeight[h - 1] + minNodesForHeight[h - 2] + 1;
+        }
+
+        int nodesToAdd = minNodesForHeight[currentHeight] - currentNodes;
+
+        if (nodesToAdd <= n)
+        {
+            CollectPossibleValues(tree, possibleValues);
+            return true;
+        }
+
+        return false;
+    }
+
+
+    private void CollectPossibleValues(Node r, List<(int, int)> possibleValues)
+    {
+        if (r == null) return;
+
+        possibleValues.Add((r.inf - 1, r.inf)); // Меньше текущего узла
+        possibleValues.Add((r.inf, r.inf + 1)); // Больше текущего узла
+
+        CollectPossibleValues(r.left, possibleValues);
+        CollectPossibleValues(r.right, possibleValues);
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        BinaryTree bst = new BinaryTree();
+
+        string[] numbers = File.ReadAllText("C:\\Users\\user\\Desktop\\A&SD\\4 sem\\pr21_3_9\\input.txt").Split();
+
+        foreach (string num in numbers)
+        {
+            if (int.TryParse(num, out int value))
+            {
+                bst.Add(value);
+            }
+        }
+
+        Console.Write("Введите n: ");
+        int n = int.Parse(Console.ReadLine());
+
+        List<(int, int)> possibleValues;
+
+        bool canBalance = bst.CanBalanceWithAdditions(n, out possibleValues);
+
+        if (canBalance)
+        {
+            Console.WriteLine($"Дерево можно сбалансировать, добавив не более {n} узлов.");
+            Console.WriteLine("Допустимые диапазоны значений для добавления:");
+            foreach (var range in possibleValues)
+            {
+                Console.WriteLine($"От {range.Item1} до {range.Item2}");
+            }
+        }
+        else
+        {
+            Console.WriteLine($"Дерево нельзя сбалансировать, добавив не более {n} узлов.");
+        }
+    }
+}

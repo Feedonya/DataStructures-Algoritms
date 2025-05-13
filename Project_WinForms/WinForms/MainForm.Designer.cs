@@ -35,6 +35,7 @@
             Label = new Label();
             indexTextBox = new TextBox();
             figuresListBox = new ListBox();
+            sortButton = new Button();
             SuspendLayout();
             // 
             // showAllButton
@@ -49,7 +50,7 @@
             // 
             // addButton
             // 
-            addButton.Location = new Point(243, 358);
+            addButton.Location = new Point(167, 358);
             addButton.Name = "addButton";
             addButton.Size = new Size(109, 29);
             addButton.TabIndex = 1;
@@ -104,11 +105,22 @@
             figuresListBox.TabIndex = 6;
             figuresListBox.SelectedIndexChanged += figuresListBox_SelectedIndexChanged;
             // 
+            // sortButton
+            // 
+            sortButton.Location = new Point(293, 358);
+            sortButton.Name = "sortButton";
+            sortButton.Size = new Size(125, 29);
+            sortButton.TabIndex = 7;
+            sortButton.Text = "Отсортировать";
+            sortButton.UseVisualStyleBackColor = true;
+            sortButton.Click += sortButton_Click;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(607, 436);
+            Controls.Add(sortButton);
             Controls.Add(removeButton);
             Controls.Add(exitButton);
             Controls.Add(addButton);
@@ -131,5 +143,6 @@
         private Label Label;
         private TextBox indexTextBox;
         private ListBox figuresListBox;
+        private Button sortButton;
     }
 }

@@ -7,17 +7,12 @@
       "RelativeMoniker": "D:0:0:{73A7DEC1-B4C8-4F9A-9A39-C513CB074C00}|pr21_3_9.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{73A7DEC1-B4C8-4F9A-9A39-C513CB074C00}|pr21_3_9.csproj|c:\\users\\user\\desktop\\a\u0026sd\\4 sem\\pr21_3_9\\\u043F\u0440\u0438\u043C\u0435\u0440.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{73A7DEC1-B4C8-4F9A-9A39-C513CB074C00}|pr21_3_9.csproj|solutionrelative:\u043F\u0440\u0438\u043C\u0435\u0440.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{73A7DEC1-B4C8-4F9A-9A39-C513CB074C00}|pr21_3_9.csproj|c:\\users\\user\\desktop\\a\u0026sd\\4 sem\\pr21_3_9\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{73A7DEC1-B4C8-4F9A-9A39-C513CB074C00}|pr21_3_9.csproj|solutionrelative:input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\A\u0026SD\\4 sem\\pr21_2_1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\Rar$DIa29588.39456.rartemp\\BinaryTree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\AppData\\Local\\Temp\\Rar$DIa29588.39168.rartemp\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,55 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\4 sem\\pr21_2_1\\Program.cs",
-              "RelativeDocumentMoniker": "..\\pr21_2_1\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\4 sem\\pr21_2_1\\Program.cs",
-              "RelativeToolTip": "..\\pr21_2_1\\Program.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAAAI4AAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T15:56:59.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BinaryTree.cs",
-              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\Rar$DIa29588.39456.rartemp\\BinaryTree.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\Rar$DIa29588.39456.rartemp\\BinaryTree.cs",
-              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\Rar$DIa29588.39456.rartemp\\BinaryTree.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\Rar$DIa29588.39456.rartemp\\BinaryTree.cs",
-              "ViewState": "AgIAACYBAAAAAAAAAAAAwE4BAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T15:39:45.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\AppData\\Local\\Temp\\Rar$DIa29588.39168.rartemp\\Program.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\Rar$DIa29588.39168.rartemp\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\AppData\\Local\\Temp\\Rar$DIa29588.39168.rartemp\\Program.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\Rar$DIa29588.39168.rartemp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T15:39:42.32Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "input.txt",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\4 sem\\pr21_3_9\\input.txt",
-              "RelativeDocumentMoniker": "input.txt",
-              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\4 sem\\pr21_3_9\\input.txt",
-              "RelativeToolTip": "input.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Title": "\u043F\u0440\u0438\u043C\u0435\u0440.txt",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\4 sem\\pr21_3_9\\\u043F\u0440\u0438\u043C\u0435\u0440.txt",
+              "RelativeDocumentMoniker": "\u043F\u0440\u0438\u043C\u0435\u0440.txt",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\4 sem\\pr21_3_9\\\u043F\u0440\u0438\u043C\u0435\u0440.txt",
+              "RelativeToolTip": "\u043F\u0440\u0438\u043C\u0435\u0440.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-15T15:32:50.577Z"
+              "WhenOpened": "2025-05-13T11:20:21.959Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -85,10 +45,22 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\4 sem\\pr21_3_9\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB8AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAwJEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T08:56:06.94Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "input.txt",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\A\u0026SD\\4 sem\\pr21_3_9\\input.txt",
+              "RelativeDocumentMoniker": "input.txt",
+              "ToolTip": "C:\\Users\\user\\Desktop\\A\u0026SD\\4 sem\\pr21_3_9\\input.txt",
+              "RelativeToolTip": "input.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-15T15:32:50.577Z"
             }
           ]
         }

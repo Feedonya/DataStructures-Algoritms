@@ -9,5 +9,6 @@ namespace Project.Domain.Services
         void AddFigure(Figure figure);
         Figure GetFigureByIndex(int index);
         void RemoveFigure(int index);
+        void SortFigures();
     }
 }

@@ -97,7 +97,7 @@ namespace Project.App
         {
             Console.WriteLine("Введите ширину и высоту прямоугольника (Width Height):");
             var input = Console.ReadLine().Split(' ');
-            return new Rectangle(double.Parse(input[0]), double.Parse(input[1]));
+            return new Project.Entities.Rectangle(double.Parse(input[0]), double.Parse(input[1]));
         }
 
         private void RemoveFigure()
