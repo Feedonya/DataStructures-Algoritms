@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\A&SD\4 sem\pr22_1_17\bin\Debug\net8.0\pr22_1_17.exe
+C:\Users\user\Desktop\A&SD\4 sem\pr22_1_17\bin\Debug\net8.0\pr22_1_17.deps.json
+C:\Users\user\Desktop\A&SD\4 sem\pr22_1_17\bin\Debug\net8.0\pr22_1_17.runtimeconfig.json
+C:\Users\user\Desktop\A&SD\4 sem\pr22_1_17\bin\Debug\net8.0\pr22_1_17.dll
+C:\Users\user\Desktop\A&SD\4 sem\pr22_1_17\bin\Debug\net8.0\pr22_1_17.pdb
+C:\Users\user\Desktop\A&SD\4 sem\pr22_1_17\obj\Debug\net8.0\pr22_1_17.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\A&SD\4 sem\pr22_1_17\obj\Debug\net8.0\pr22_1_17.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\A&SD\4 sem\pr22_1_17\obj\Debug\net8.0\pr22_1_17.AssemblyInfo.cs
+C:\Users\user\Desktop\A&SD\4 sem\pr22_1_17\obj\Debug\net8.0\pr22_1_17.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\A&SD\4 sem\pr22_1_17\obj\Debug\net8.0\pr22_1_17.sourcelink.json
+C:\Users\user\Desktop\A&SD\4 sem\pr22_1_17\obj\Debug\net8.0\pr22_1_17.dll
+C:\Users\user\Desktop\A&SD\4 sem\pr22_1_17\obj\Debug\net8.0\refint\pr22_1_17.dll
+C:\Users\user\Desktop\A&SD\4 sem\pr22_1_17\obj\Debug\net8.0\pr22_1_17.pdb
+C:\Users\user\Desktop\A&SD\4 sem\pr22_1_17\obj\Debug\net8.0\pr22_1_17.genruntimeconfig.cache
+C:\Users\user\Desktop\A&SD\4 sem\pr22_1_17\obj\Debug\net8.0\ref\pr22_1_17.dll
