@@ -334,14 +334,14 @@
             // Проверяем финальное состояние
             if (IsBalanced(tree))
             {
-                Console.WriteLine("✅ Дерево успешно отбалансировано.");
+                Console.WriteLine("Дерево успешно отбалансировано.");
                 Console.WriteLine("Итоговое дерево:");
                 Preorder();
                 return true;
             }
             else
             {
-                Console.WriteLine("❌ Не удалось полностью отбалансировать дерево за заданное число операций.");
+                Console.WriteLine("Не удалось полностью отбалансировать дерево за заданное число операций.");
                 Console.WriteLine("Частично восстановленное дерево:");
                 Preorder();
                 return false;

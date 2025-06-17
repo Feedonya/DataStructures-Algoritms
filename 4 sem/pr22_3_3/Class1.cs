@@ -15,5 +15,7 @@ public class Program
         string[] intermediateCities = Console.ReadLine().Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
         graph.FindPathThroughCities(startCity, endCity, new List<string>(intermediateCities));
+        Console.WriteLine("\nВсе кратчайшие пути из Москвы, проходящие через Екатеринбург:");
+        graph.FindAllPathsThroughCities(startCity, new List<string>(intermediateCities));
     }
 }
